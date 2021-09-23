@@ -33,7 +33,7 @@ test("gets inventory from player or returns false", () => {
   expect(player.getInventory()).toEqual(false);
 });
 
-test("gets players health value", () => {
+test("gets player's health value", () => {
   const player = new Player("Dave");
 
   expect(player.getHealth()).toEqual(
